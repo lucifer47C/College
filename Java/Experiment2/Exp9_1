@@ -1,5 +1,4 @@
 import java.util.*;
-
 class PrintSeries
 	{
 		synchronized void even(int n)
