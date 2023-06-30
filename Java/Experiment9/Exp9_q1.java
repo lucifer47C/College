@@ -1,4 +1,5 @@
 import java.util.*;
+
 class PrintSeries
 	{
 		synchronized void even(int n)
@@ -41,6 +42,7 @@ class PrintSeries
     
 			}	
 	}
+
 class Demo1 extends Thread
 	{
 		PrintSeries obj;
@@ -64,6 +66,7 @@ class Demo1 extends Thread
 					}	 				
 			}
 	}
+
 class Demo2 implements Runnable
 	{
 		PrintSeries obj;
